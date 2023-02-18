@@ -1,0 +1,79 @@
+# Metadata for Fixed Line Subscriptions
+---
+Identifier: 'e88268c6-362b-4ea7-b69d-54e234501f66'
+Name: 'fixed-line-subscriptions'
+Title: 'Fixed Line Subscriptions'
+Description:
+  - '"Fixed Lines" includes Direct Exchange Lines (DEL) and IP Telephony subscriptions
+    using Level ''6'' numbers. With effect from Aug 2008, figures for "Fixed Lines"
+    will be updated on a quarterly basis every Mar, Jun, Sep and Dec.'
+  - ''
+  - 'All figures for subscriptions are rounded to the nearest hundred.'
+Topics:
+  - 'Technology'
+Keywords:
+  - 'Information Technology'
+  - 'Telecommunications'
+Publisher:
+  Name: 'Infocomm Media Development Authority'
+  Admin 1:
+    Name: 'Tan Hock Chai'
+    Department: 'Planning'
+    Email: 'tan_hock_chai@imda.gov.sg'
+  Admin 2:
+    Name: 'Loh Woon Sien'
+    Department: 'PRCD'
+    Email: 'loh_woon_sien@imda.gov.sg'
+Sources:
+  - 'Infocomm Media Development Authority'
+Source Url: 'https://www.imda.gov.sg/industry-development/facts-and-figures/telecommunications'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2008-07-01 to 2019-03-31'
+Last Updated: '2019-08-08T07:44:32.621717'
+Resources:
+  -
+    Identifier: '7f1d15bd-b0b6-4045-8e57-120efceb2891'
+    Title: 'Fixed Line Subscriptions'
+    Url: 'https://storage.data.gov.sg/fixed-line-subscriptions/resources/fixed-line-subscriptions-2019-08-08T06-38-11Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-07-01 to 2019-03-31'
+    Last Updated: '2019-08-08T06:38:11.921730'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'number_of_subscriptions'
+        Title: 'Number Of Subscriptions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of Fixed Line Subscriptions'
+  -
+    Identifier: '6d8347ec-5a09-44aa-a011-1a60616a6346'
+    Title: 'Fixed Line Subscriptions By Type'
+    Url: 'https://storage.data.gov.sg/fixed-line-subscriptions/resources/fixed-line-subscriptions-by-type-2019-08-08T06-39-54Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-07-01 to 2019-03-31'
+    Last Updated: '2019-08-08T06:39:54.920914'
+    Schema:
+      -
+        Name: 'quarter'
+        Title: 'Quarter'
+        Type: 'datetime'
+        Sub Type: 'quarter'
+        Format: 'YYYY-[Q]Q'
+      -
+        Name: 'type_of_fixed_lines'
+        Title: 'Type Of Fixed Lines'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number_of_subscriptions'
+        Title: 'Number Of Subscriptions'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Number of fixed line subscriptions by Type'
